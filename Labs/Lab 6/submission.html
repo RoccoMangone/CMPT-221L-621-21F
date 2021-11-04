@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submission</title>
+    <title>Lab6Submission</title>
 </head>
 <body>
-    <h2>Login</h2>
-    <p>Please enter your login information</p>
-    <form action="/login" method="post">
-        <p>Email:</p>
-        <input type="email" name="login[email]" id="">
-        <p>Password:</p>
-        <input type="password" name="login[password]" id="">
-        <input type="submit" value="Click me!">
-    </form>
-    
-    <h2>Signup</h2>
-    <p>Please enter your email and create a password to make an account</p>
-    <form action="/signup" method="post">
-        <p>Email:</p>
-        <input type="email" name="signup[email]" id="">
-        <p>Password:</p>
-        <input type="password" name="signup[password]" id="">
-        <input type="submit" value="Click me!">
-    </form>
+    <form method="post">
+        <div>
+            <div>Create Account</div>
+          <label>Email address</label>
+          <input type="email" id="logEmail">
+        </div>
+        <div>
+          <label>Password</label>
+          <input type="password" id="logPass">
+        </div>
+        <input type="submit" value="Submit" onclick="submitLoginData()">
+      </form>
+
+      <div>-----------------------------------------------</div>
+
+      <form method="post">
+        <div>
+            <div>Sign In</div>
+          <label>Email address</label>
+          <input type="email" id="newEmail">
+        </div>
+        <div>
+          <label>Password</label>
+          <input type="password" id="newPass">
+        </div>
+        <input type="submit" value="Submit" onclick="submitNewData()">
+      </form>
+      <script scr="script.js"></script>
 </body>
 </html>
