@@ -15,3 +15,6 @@ I want you to be able to connect to a database using MongoDB Connect. So for thi
 - If you need to check if it's there or delete a record you can do so through MongoDB Compass.
 
 This lab is another simple one but very crucial. Same as last week it seems simple, I'm relaxing on the instructions to make sure you can determine the minor points that you need to implement to get the points above to work. 
+
+
+mongodb+srv://Student:CorgisAreDope@cluster0.h6c8l.mongodb.net/Lab-8?retryWrites=true&w=majority
